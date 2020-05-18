@@ -1,0 +1,3 @@
+CREATE DATABASE users_database;
+\c users_database
+CREATE TABLE users(id SERIAL PRIMARY KEY NOT NULL, name VARCHAR(100) NOT NULL, username VARCHAR(100) UNIQUE, email VARCHAR(100) UNIQUE);

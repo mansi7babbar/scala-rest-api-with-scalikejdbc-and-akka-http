@@ -1,0 +1,11 @@
+export URL=jdbc:postgresql://localhost/users_database
+
+export DRIVER=org.postgresql.Driver
+
+export USERNAME=postgres
+
+export PASSWORD=knoldus
+
+export PORT=8081
+
+export INTERFACE=localhost
